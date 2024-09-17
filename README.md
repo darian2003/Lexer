@@ -1,5 +1,5 @@
 # Python Interpreter
-The purpose of this project is to create an interpreter for a personally created programming language (similar to LSIP) that receives as input a sequence of operations and computes the result.
+The purpose of this project is to create an interpreter for a personally created programming language (similar to LisP) that receives as input a sequence of operations and computes the result.
 For example, given the input "(++ ((1 2  ()) (3 4)))" it returns "( 1 2 () 3 4 )" 
 or given the input "((((lambda x: lambda y: ((x y) x) lambda x: lambda y: x) lambda x: lambda y: y) 1 ) 2)" it returns "2".
 
